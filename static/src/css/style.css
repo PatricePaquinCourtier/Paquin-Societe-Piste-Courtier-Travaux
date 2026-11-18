@@ -181,3 +181,13 @@ form{background:var(--white);border:1px solid var(--hair);border-radius:16px;pad
 }
 @media(max-width:560px){.steps,.services,.row2{grid-template-columns:1fr}.philo{padding:30px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+
+
+/* ===================== AVANT / APRÈS — PHOTOS DE RÉALISATIONS ===================== */
+.gallery .ba{aspect-ratio:4/3;background:#e8edf2}
+.gallery .ba__layer img{object-fit:contain;background:#e8edf2}
+.gallery .ba__tag{z-index:3}
+.gallery .ba__line,.gallery .ba__grip{z-index:4}
+
+/* Photos verticales : piscine et escalier (orientation issue des PDF originaux) */
+.gallery .ba.ba--portrait{aspect-ratio:4/5}

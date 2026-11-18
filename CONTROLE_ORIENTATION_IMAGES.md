@@ -1,0 +1,46 @@
+# Contrôle des orientations — 42 réalisations
+
+Chaque visuel a été ré-extrait depuis son image incorporée dans le PDF, en appliquant la transformation de rotation/miroir définie par le PDF. Les formats de panneaux portrait sont déterminés à partir des dimensions finales des deux photos.
+
+- **Chambre — Pont-de-l’Arche** — Avant 751×943, Après 708×824 — panneau portrait — source : avap chantier pont arche chambre.pdf
+- **Cour extérieure — Pont-de-l’Arche** — Avant 1024×768, Après 1024×768 — panneau paysage — source : avap chantier pont arche salle.pdf
+- **Escalier — Louviers** — Avant 1024×768, Après 810×1018 — panneau portrait — source : avap chantier ecalier louviers.pdf
+- **Entrée — Rouvray** — Avant 768×1024, Après 768×1024 — panneau portrait — source : avap chantier rouvray.pdf
+- **Pièce de vie — Pacy** — Avant 1024×768, Après 1144×808 — panneau paysage — source : avap chantier pacy .pdf
+- **Pièce de vie — Pacy · autre espace** — Avant 768×1024, Après 1141×805 — panneau portrait — source : avap chantier pacy bis.pdf
+- **Cuisine — Gaillon** — Avant 768×1024, Après 719×903 — panneau portrait — source : avap chantier gaillon cuisine .pdf
+- **Salle de bain — Gaillon** — Avant 1024×768, Après 1113×1026 — panneau paysage — source : avap chantier gaillon sdb.pdf
+- **Aménagement intérieur — Ailly** — Avant 768×1024, Après 768×1024 — panneau portrait — source : avap chantier ailly .pdf
+- **Pompe à chaleur — Chambray** — Avant 675×849, Après 641×806 — panneau portrait — source : avap chantier PAC chambray copie.pdf
+- **Piscine — Four** — Avant 524×656, Après 719×902 — panneau portrait — source : avap chantier piscine four .pdf
+- **Assainissement autonome** — Avant 624×442, Après 1024×768 — panneau paysage — source : avap chantier assainissement  copie.pdf
+- **Arrière-maison — Ailly** — Avant 1024×768, Après 768×1024 — panneau portrait — source : avap chantier arriere ailly .pdf
+- **Pièce de vie — Épône** — Avant 739×522, Après 654×500 — panneau paysage — source : avap chantier epone.pdf
+- **Salle — Venables** — Avant 1024×768, Après 720×540 — panneau paysage — source : avap chantier venable salle .pdf
+- **Chambre — Venables** — Avant 1024×768, Après 641×481 — panneau paysage — source : avap chantier venable .pdf
+- **Combles — Viller** — Avant 768×1024, Après 768×1024 — panneau portrait — source : avap chantier viller .pdf
+- **Cuisine — Chambray** — Avant 1024×768, Après 1024×768 — panneau paysage — source : avap chantier chambray cuisine.pdf
+- **Salle de bain — Chambray** — Avant 1024×768, Après 1024×768 — panneau paysage — source : avap chantier chambray sdb.pdf
+- **Combles — Les Andelys** — Avant 1024×768, Après 1024×548 — panneau paysage — source : avap chantier les andelys .pdf
+- **Salle de bain sous combles — Gaillon** — Avant 1024×556, Après 438×552 — panneau portrait — source : avap chantier SDB gaillon grenier .pdf
+- **Salle — Gaillon** — Avant 768×1024, Après 1024×768 — panneau portrait — source : avap chantier SDB gaillon salle .pdf
+- **Chambre — Évreux** — Avant 589×740, Après 541×680 — panneau portrait — source : avap chantier evreux chambre.pdf
+- **Salle — Houlbec** — Avant 1024×768, Après 768×1024 — panneau portrait — source : avap chantier houlbec salle .pdf
+- **Chambre — Houlbec** — Avant 1024×768, Après 1024×768 — panneau paysage — source : avap chantier houlbec chambre  .pdf
+- **Extension — Vernon** — Avant 654×463, Après 768×1024 — panneau portrait — source : avap extension vernon.pdf
+- **Espace bien-être — Gîte** — Avant 716×508, Après 1011×671 — panneau paysage — source : avap gite mur brique .pdf
+- **Salle — Albufera, Vernon** — Avant 1024×768, Après 1056×747 — panneau paysage — source : avap chantier salle albufera vernon.pdf
+- **Cuisine — Mézières** — Avant 1024×768, Après 1024×768 — panneau paysage — source : avap piste chantier cuisine mezieres.pdf
+- **Salle de bain — Albufera, Vernon** — Avant 1024×768, Après 768×1024 — panneau portrait — source : avap chantier sdb albufera vernon.pdf
+- **Salle — Fontaine** — Avant 744×525, Après 768×1024 — panneau portrait — source : avap chantier salle fontaine .pdf
+- **Extension — Amfreville** — Avant 694×504, Après 605×427 — panneau paysage — source : avap extension amfreville .pdf
+- **Gîte — Rénovation extérieure** — Avant 898×641, Après 1228×813 — panneau paysage — source : avap gite .pdf
+- **Salle d’eau — Évreux centre** — Avant 580×727, Après 733×921 — panneau portrait — source : avap chantier evreux centre sde.pdf
+- **Pièce de vie — Évreux** — Avant 589×741, Après 768×1024 — panneau portrait — source : avap chantier evreux piece de vie .pdf
+- **Salle de bain — Le Quevilly** — Avant 629×787, Après 515×365 — panneau portrait — source : avap chantier quevilly.pdf
+- **Aménagement intérieur — Canteleu** — Avant 842×595, Après 1080×782 — panneau paysage — source : avap chantier canteleu.pdf
+- **Espace bien-être — Gîte** — Avant 1024×768, Après 1024×682 — panneau paysage — source : avap gite espace bien etre .pdf
+- **Intérieur — Gîte** — Avant 1024×768, Après 1024×768 — panneau paysage — source : avap gite int.pdf
+- **Salle — Épône** — Avant 677×479, Après 1024×554 — panneau paysage — source : avap salle epone .pdf
+- **Salle de bain — Autheuil** — Avant 768×1024, Après 706×887 — panneau portrait — source : avap chantier SDB autheuil.pdf
+- **Pièce de vie — Mantes-la-Jolie** — Avant 1024×768, Après 768×1024 — panneau portrait — source : avap travaux mantes la jolie .pdf

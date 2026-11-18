@@ -9,7 +9,7 @@
 <header class="nav">
   <div class="wrap nav__in">
     <a href="#accueil" class="brand">
-      <img src="data:image/png;base64,iVcLD7GmJQuZriNefQZY">
+      <img src="/courtier_travaux_odoo_ready/static/src/img/logo-piste.jpg" alt="Logo PISTE" />
         <span class="brand__txt">
         <span class="brand__name">Patrice Paquin</span>
         <span class="brand__sub">Courtier en travaux</span>
@@ -52,7 +52,7 @@
       </div>
       <div class="reveal in d1">
         <div class="portrait">
-          <img src="data:image/jpeg;base64,/9j/4AAQSkZ">
+          <img src="/courtier_travaux_odoo_ready/static/src/img/hero-realisation.jpg" alt="Exemple de pièce de vie rénovée" loading="lazy" decoding="async" />
         </div>
       </div>
     </div>
@@ -63,12 +63,12 @@
         <div><span class="eyebrow">En vedette</span><h3>Grange restaurée — rénovation complète</h3></div>
         <span class="muted">↔ Glissez pour comparer</span>
       </div>
-      <div class="ba">
-        <div class="ba__layer ba__after"><img src="data:image/jpeg;base64,/9j/+/">
-        <div class="ba__layer ba__before"><img src="data:image/jpeg;base64,/9j/4A">
-        <span class="ba__tag ba__tag--b">Avant</span><span class="ba__tag ba__tag--a">Après</span>
-        <div class="ba__line"></div><div class="ba__grip">↔</div>
-      </div>
+<div class="ba " aria-label="Comparaison avant et après : Grange restaurée — rénovation complète">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/fontaine-grange-apres.jpg" alt="Après travaux — Grange restaurée — rénovation complète" loading="lazy" decoding="async"/></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/fontaine-grange-avant.jpg" alt="Avant travaux — Grange restaurée — rénovation complète" loading="lazy" decoding="async"/></div>
+          <span class="ba__tag ba__tag--b">Avant</span><span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line" aria-hidden="true"></div><div class="ba__grip" aria-hidden="true">↔</div>
+        </div>
     </div>
   </div>
 </section>
@@ -92,53 +92,509 @@
     </div>
 
     <div class="gallery" id="gallery">
-      <article class="card reveal" data-cat="cuisine">
-        <div class="ba"><div class="ba__layer ba__after"><img src="data:image/jpeg;base64,/9j/4">
-        <span class="tagcat">Cuisine</span><h4>Cuisine contemporaine — Mézières</h4>
-      </article>
-      <article class="card reveal" data-cat="cuisine">
-        <div class="ba"><div class="ba__layer ba__after"><img src="data:image/jpeg;base64,">
-        <span class="tagcat">Cuisine</span><h4>Cuisine ouverte — Chambray</h4>
-      </article>
-      <article class="card reveal" data-cat="salon">
-        <div class="ba"><div class="ba__layer ba__after"><img src="data:image/jpeg;base64,/9j">
-        <span class="tagcat">Pièce de vie</span><h4>Séjour rénové — Épône</h4>
-      </article>
-      <article class="card reveal" data-cat="salon">
-        <div class="ba"><div class="ba__layer ba__after"><img src="data:image/jpeg;base64,/9j/">
-        <span class="tagcat">Pièce de vie</span><h4>Pièce de vie rénovée — Quevilly</h4>
-      </article>
-      <article class="card reveal" data-cat="salon">
-        <div class="ba"><div class="ba__layer ba__after"><img src="data:image/jpeg;base64,/9j/4A">
-        <span class="tagcat">Pièce de vie</span><h4>Grange aménagée — séjour</h4>
-      </article>
-      <article class="card reveal" data-cat="salon">
-        <div class="ba"><div class="ba__layer ba__after"><img src="data:image/jpeg;base64,/9j/4AA">
-        <span class="tagcat">Pièce de vie</span><h4>Pièce de vie — Houlbec</h4>
-      </article>
-      <article class="card reveal" data-cat="sdb">
-        <div class="ba"><div class="ba__layer ba__after"><img src="data:image/jpeg;base64,/9j/4AAQSk">
-        <span class="tagcat">Salle de bain</span><h4>Salle d'eau — Autheuil</h4>
-      </article>
-      <article class="card reveal" data-cat="sdb">
-        <div class="ba"><div class="ba__layer ba__after"><img src="data:image/jpeg;base64,/9j/4A">
-        <span class="tagcat">Salle de bain</span><h4>Salle d'eau — Évreux</h4>
-      </article>
-      <article class="card reveal" data-cat="sdb">
-        <div class="ba"><div class="ba__layer ba__after"><img src="data:image/jpeg;base64,/9j/4AAQSkZ">
-        <span class="tagcat">Salle de bain</span><h4>Espace bien-être — spa</h4>
-      </article>
       <article class="card reveal" data-cat="chambre">
-        <div class="ba"><div class="ba__layer ba__after"><img src="data:image/jpeg;base64,/9j/4">
-        <span class="tagcat">Chambre</span><h4>Chambre enfant — Houlbec</h4>
-      </article>
-      <article class="card reveal" data-cat="chambre">
-        <div class="ba"><div class="ba__layer ba__after"><img src="data:image/jpeg;base64,/9j/4AAQS">
-        <span class="tagcat">Chambre</span><h4>Suite sous combles — Venable</h4>
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-pont-arche-chambre-apres.jpg" alt="Après — Chambre — Pont-de-l’Arche" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-pont-arche-chambre-avant.jpg" alt="Avant — Chambre — Pont-de-l’Arche" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Chambre</span>
+        <h4>Chambre — Pont-de-l’Arche</h4>
       </article>
       <article class="card reveal" data-cat="exterieur">
-        <div class="ba"><div class="ba__layer ba__after"><img src="data:image/jpeg;base64,/9j/4AA">
-        <span class="tagcat">Extérieur</span><h4>Extension & extérieur — Amfreville</h4>
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-pont-arche-salle-apres.jpg" alt="Après — Cour extérieure — Pont-de-l’Arche" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-pont-arche-salle-avant.jpg" alt="Avant — Cour extérieure — Pont-de-l’Arche" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Extérieur</span>
+        <h4>Cour extérieure — Pont-de-l’Arche</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-ecalier-louviers-apres.jpg" alt="Après — Escalier — Louviers" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-ecalier-louviers-avant.jpg" alt="Avant — Escalier — Louviers" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Escalier — Louviers</h4>
+      </article>
+      <article class="card reveal" data-cat="exterieur">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-rouvray-apres.jpg" alt="Après — Entrée — Rouvray" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-rouvray-avant.jpg" alt="Avant — Entrée — Rouvray" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Extérieur</span>
+        <h4>Entrée — Rouvray</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-pacy-apres.jpg" alt="Après — Pièce de vie — Pacy" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-pacy-avant.jpg" alt="Avant — Pièce de vie — Pacy" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Pièce de vie — Pacy</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-pacy-bis-apres.jpg" alt="Après — Pièce de vie — Pacy · autre espace" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-pacy-bis-avant.jpg" alt="Avant — Pièce de vie — Pacy · autre espace" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Pièce de vie — Pacy · autre espace</h4>
+      </article>
+      <article class="card reveal" data-cat="cuisine">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-gaillon-cuisine-apres.jpg" alt="Après — Cuisine — Gaillon" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-gaillon-cuisine-avant.jpg" alt="Avant — Cuisine — Gaillon" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Cuisine</span>
+        <h4>Cuisine — Gaillon</h4>
+      </article>
+      <article class="card reveal" data-cat="sdb">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-gaillon-sdb-apres.jpg" alt="Après — Salle de bain — Gaillon" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-gaillon-sdb-avant.jpg" alt="Avant — Salle de bain — Gaillon" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Salle de bain</span>
+        <h4>Salle de bain — Gaillon</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-ailly-apres.jpg" alt="Après — Aménagement intérieur — Ailly" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-ailly-avant.jpg" alt="Avant — Aménagement intérieur — Ailly" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Aménagement intérieur — Ailly</h4>
+      </article>
+      <article class="card reveal" data-cat="exterieur">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-pac-chambray-copie-apres.jpg" alt="Après — Pompe à chaleur — Chambray" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-pac-chambray-copie-avant.jpg" alt="Avant — Pompe à chaleur — Chambray" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Extérieur</span>
+        <h4>Pompe à chaleur — Chambray</h4>
+      </article>
+      <article class="card reveal" data-cat="exterieur">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-piscine-four-apres.jpg" alt="Après — Piscine — Four" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-piscine-four-avant.jpg" alt="Avant — Piscine — Four" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Extérieur</span>
+        <h4>Piscine — Four</h4>
+      </article>
+      <article class="card reveal" data-cat="exterieur">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-assainissement-copie-apres.jpg" alt="Après — Assainissement autonome" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-assainissement-copie-avant.jpg" alt="Avant — Assainissement autonome" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Extérieur</span>
+        <h4>Assainissement autonome</h4>
+      </article>
+      <article class="card reveal" data-cat="exterieur">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-arriere-ailly-apres.jpg" alt="Après — Arrière-maison — Ailly" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-arriere-ailly-avant.jpg" alt="Avant — Arrière-maison — Ailly" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Extérieur</span>
+        <h4>Arrière-maison — Ailly</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-epone-apres.jpg" alt="Après — Pièce de vie — Épône" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-epone-avant.jpg" alt="Avant — Pièce de vie — Épône" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Pièce de vie — Épône</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-venable-salle-apres.jpg" alt="Après — Salle — Venables" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-venable-salle-avant.jpg" alt="Avant — Salle — Venables" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Salle — Venables</h4>
+      </article>
+      <article class="card reveal" data-cat="chambre">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-venable-apres.jpg" alt="Après — Chambre — Venables" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-venable-avant.jpg" alt="Avant — Chambre — Venables" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Chambre</span>
+        <h4>Chambre — Venables</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-viller-apres.jpg" alt="Après — Combles — Viller" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-viller-avant.jpg" alt="Avant — Combles — Viller" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Combles — Viller</h4>
+      </article>
+      <article class="card reveal" data-cat="cuisine">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-chambray-cuisine-apres.jpg" alt="Après — Cuisine — Chambray" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-chambray-cuisine-avant.jpg" alt="Avant — Cuisine — Chambray" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Cuisine</span>
+        <h4>Cuisine — Chambray</h4>
+      </article>
+      <article class="card reveal" data-cat="sdb">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-chambray-sdb-apres.jpg" alt="Après — Salle de bain — Chambray" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-chambray-sdb-avant.jpg" alt="Avant — Salle de bain — Chambray" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Salle de bain</span>
+        <h4>Salle de bain — Chambray</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-les-andelys-apres.jpg" alt="Après — Combles — Les Andelys" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-les-andelys-avant.jpg" alt="Avant — Combles — Les Andelys" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Combles — Les Andelys</h4>
+      </article>
+      <article class="card reveal" data-cat="sdb">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-sdb-gaillon-grenier-apres.jpg" alt="Après — Salle de bain sous combles — Gaillon" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-sdb-gaillon-grenier-avant.jpg" alt="Avant — Salle de bain sous combles — Gaillon" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Salle de bain</span>
+        <h4>Salle de bain sous combles — Gaillon</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-sdb-gaillon-salle-apres.jpg" alt="Après — Salle — Gaillon" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-sdb-gaillon-salle-avant.jpg" alt="Avant — Salle — Gaillon" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Salle — Gaillon</h4>
+      </article>
+      <article class="card reveal" data-cat="chambre">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-evreux-chambre-apres.jpg" alt="Après — Chambre — Évreux" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-evreux-chambre-avant.jpg" alt="Avant — Chambre — Évreux" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Chambre</span>
+        <h4>Chambre — Évreux</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-houlbec-salle-apres.jpg" alt="Après — Salle — Houlbec" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-houlbec-salle-avant.jpg" alt="Avant — Salle — Houlbec" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Salle — Houlbec</h4>
+      </article>
+      <article class="card reveal" data-cat="chambre">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-houlbec-chambre-apres.jpg" alt="Après — Chambre — Houlbec" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-houlbec-chambre-avant.jpg" alt="Avant — Chambre — Houlbec" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Chambre</span>
+        <h4>Chambre — Houlbec</h4>
+      </article>
+      <article class="card reveal" data-cat="exterieur">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-extension-vernon-apres.jpg" alt="Après — Extension — Vernon" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-extension-vernon-avant.jpg" alt="Avant — Extension — Vernon" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Extérieur</span>
+        <h4>Extension — Vernon</h4>
+      </article>
+      <article class="card reveal" data-cat="sdb">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-gite-mur-brique-apres.jpg" alt="Après — Espace bien-être — Gîte" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-gite-mur-brique-avant.jpg" alt="Avant — Espace bien-être — Gîte" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Salle de bain</span>
+        <h4>Espace bien-être — Gîte</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-salle-albufera-vernon-apres.jpg" alt="Après — Salle — Albufera, Vernon" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-salle-albufera-vernon-avant.jpg" alt="Avant — Salle — Albufera, Vernon" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Salle — Albufera, Vernon</h4>
+      </article>
+      <article class="card reveal" data-cat="cuisine">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-piste-chantier-cuisine-mezieres-apres.jpg" alt="Après — Cuisine — Mézières" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-piste-chantier-cuisine-mezieres-avant.jpg" alt="Avant — Cuisine — Mézières" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Cuisine</span>
+        <h4>Cuisine — Mézières</h4>
+      </article>
+      <article class="card reveal" data-cat="sdb">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-sdb-albufera-vernon-apres.jpg" alt="Après — Salle de bain — Albufera, Vernon" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-sdb-albufera-vernon-avant.jpg" alt="Avant — Salle de bain — Albufera, Vernon" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Salle de bain</span>
+        <h4>Salle de bain — Albufera, Vernon</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-salle-fontaine-apres.jpg" alt="Après — Salle — Fontaine" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-salle-fontaine-avant.jpg" alt="Avant — Salle — Fontaine" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Salle — Fontaine</h4>
+      </article>
+      <article class="card reveal" data-cat="exterieur">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-extension-amfreville-apres.jpg" alt="Après — Extension — Amfreville" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-extension-amfreville-avant.jpg" alt="Avant — Extension — Amfreville" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Extérieur</span>
+        <h4>Extension — Amfreville</h4>
+      </article>
+      <article class="card reveal" data-cat="exterieur">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-gite-apres.jpg" alt="Après — Gîte — Rénovation extérieure" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-gite-avant.jpg" alt="Avant — Gîte — Rénovation extérieure" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Extérieur</span>
+        <h4>Gîte — Rénovation extérieure</h4>
+      </article>
+      <article class="card reveal" data-cat="sdb">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-evreux-centre-sde-apres.jpg" alt="Après — Salle d’eau — Évreux centre" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-evreux-centre-sde-avant.jpg" alt="Avant — Salle d’eau — Évreux centre" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Salle de bain</span>
+        <h4>Salle d’eau — Évreux centre</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-evreux-piece-de-vie-apres.jpg" alt="Après — Pièce de vie — Évreux" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-evreux-piece-de-vie-avant.jpg" alt="Avant — Pièce de vie — Évreux" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Pièce de vie — Évreux</h4>
+      </article>
+      <article class="card reveal" data-cat="sdb">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-quevilly-apres.jpg" alt="Après — Salle de bain — Le Quevilly" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-quevilly-avant.jpg" alt="Avant — Salle de bain — Le Quevilly" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Salle de bain</span>
+        <h4>Salle de bain — Le Quevilly</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-canteleu-apres.jpg" alt="Après — Aménagement intérieur — Canteleu" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-chantier-canteleu-avant.jpg" alt="Avant — Aménagement intérieur — Canteleu" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Aménagement intérieur — Canteleu</h4>
+      </article>
+      <article class="card reveal" data-cat="sdb">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-gite-espace-bien-etre-apres.jpg" alt="Après — Espace bien-être — Gîte" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-gite-espace-bien-etre-avant.jpg" alt="Avant — Espace bien-être — Gîte" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Salle de bain</span>
+        <h4>Espace bien-être — Gîte</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-gite-int-apres.jpg" alt="Après — Intérieur — Gîte" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-gite-int-avant.jpg" alt="Avant — Intérieur — Gîte" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Intérieur — Gîte</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-salle-epone-apres.jpg" alt="Après — Salle — Épône" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/avap-salle-epone-avant.jpg" alt="Avant — Salle — Épône" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Salle — Épône</h4>
+      </article>
+      <article class="card reveal" data-cat="sdb">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/autheuil-salle-de-bain-merge-apres.jpg" alt="Après — Salle de bain — Autheuil" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/autheuil-salle-de-bain-merge-avant.jpg" alt="Avant — Salle de bain — Autheuil" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Salle de bain</span>
+        <h4>Salle de bain — Autheuil</h4>
+      </article>
+      <article class="card reveal" data-cat="salon">
+        <div class="ba ba--portrait">
+          <div class="ba__layer ba__after"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/mantes-la-jolie-piece-de-vie-merge-apres.jpg" alt="Après — Pièce de vie — Mantes-la-Jolie" /></div>
+          <div class="ba__layer ba__before"><img src="/courtier_travaux_odoo_ready/static/src/img/portfolio/mantes-la-jolie-piece-de-vie-merge-avant.jpg" alt="Avant — Pièce de vie — Mantes-la-Jolie" /></div>
+          <span class="ba__tag ba__tag--b">Avant</span>
+          <span class="ba__tag ba__tag--a">Après</span>
+          <div class="ba__line"></div>
+          <div class="ba__grip">↔</div>
+        </div>
+        <span class="tagcat">Pièce de vie</span>
+        <h4>Pièce de vie — Mantes-la-Jolie</h4>
       </article>
     </div>
   </div>
@@ -236,7 +692,7 @@
         <span class="eyebrow">Zone d'intervention</span>
         <h3>Tout le département de l'Eure, et au-delà.</h3>
         <p>Patrice intervient sur l'ensemble du <b>département de l'Eure (27)</b> — d'Évreux à Vernon, de Gaillon aux Andelys, de Louviers à Pont-Audemer — et déborde sur la Normandie voisine et l'Île-de-France.</p>
-        <p class="muted">Un doute sur votre commune&nbsp;? Demandez, c'est sans engagement.</p>
+        <p class="muted">Un doute sur votre commune&#160;? Demandez, c'est sans engagement.</p>
       </div>
       <div class="zone__map"><svg viewBox="0 0 640 542.7" class="zonemap" role="img" aria-label="Carte du département de l'Eure">
   <defs>
@@ -262,22 +718,22 @@
         <h2>Parlons de votre projet.</h2>
         <p>Décrivez votre besoin en quelques lignes. Patrice vous répond sous 48 h pour convenir d'une première visite gratuite et sans engagement.</p>
         <ul class="contact__list">
-          <li><b>Email&nbsp;:</b> xxx.Xxx@gmail.com</li>
-          <li><b>Secteur&nbsp;:</b> Vernon, Gaillon, Évreux et alentours (rayon ~30 km) — Normandie &amp; Île-de-France</li>
-          <li><b>Réponse&nbsp;:</b> sous 48 h ouvrées</li>
+          <li><b>Email&#160;:</b> xxx.Xxx@gmail.com</li>
+          <li><b>Secteur&#160;:</b> Vernon, Gaillon, Évreux et alentours (rayon ~30 km) — Normandie &amp; Île-de-France</li>
+          <li><b>Réponse&#160;:</b> sous 48 h ouvrées</li>
         </ul>
       </div>
       <!-- DATA-EMAIL : destinataire du formulaire -->
       <form id="contactForm" data-email="xxx.Xxx@gmail.com" class="reveal d1">
         <div class="row2">
-          <div class="field"><label for="nom">Nom complet</label><input id="nom" name="nom" type="text" required placeholder="Marie Durand"></div>
-          <div class="field"><label for="tel">Téléphone</label><input id="tel" name="tel" type="tel" placeholder="06 00 00 00 00"></div>
+          <div class="field"><label for="nom">Nom complet</label><input id="nom" name="nom" type="text" required="required" placeholder="Marie Durand"/></div>
+          <div class="field"><label for="tel">Téléphone</label><input id="tel" name="tel" type="tel" placeholder="06 00 00 00 00"/></div>
         </div>
-        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required placeholder="marie@email.com"></div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required="required" placeholder="marie@email.com"/></div>
         <div class="field"><label for="type">Type de projet</label>
           <select id="type" name="type"><option>Rénovation complète</option><option>Cuisine</option><option>Salle de bain</option><option>Salon / pièce de vie</option><option>Extérieur / extension</option><option>Autre</option></select>
         </div>
-        <div class="field"><label for="message">Votre projet</label><textarea id="message" name="message" rows="5" required placeholder="Surface, pièces concernées, délais souhaités…"></textarea></div>
+        <div class="field"><label for="message">Votre projet</label><textarea id="message" name="message" rows="5" required="required" placeholder="Surface, pièces concernées, délais souhaités…"></textarea></div>
         <button type="submit" class="btn btn--primary">Envoyer ma demande <span class="arr">↗</span></button>
         <p class="form-note">En validant, votre logiciel de messagerie s'ouvre avec un e-mail prérempli adressé à Patrice Paquin.</p>
         <div class="form-ok" id="formOk">✓ Votre message est prêt. Vérifiez-le puis envoyez-le depuis votre messagerie.</div>
@@ -304,13 +760,13 @@ menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{burger.cla
 
 const links=[...menu.querySelectorAll('a')], sections=links.map(a=>document.querySelector(a.getAttribute('href')));
 const spy=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){const id='#'+e.target.id;links.forEach(l=>l.classList.toggle('is-active',l.getAttribute('href')===id));}});},{rootMargin:'-45% 0px -50% 0px'});
-sections.forEach(s=>s&&spy.observe(s));
+sections.forEach(s=>s&amp;&amp;spy.observe(s));
 
 const rev=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');rev.unobserve(e.target);}});},{threshold:.15});
 document.querySelectorAll('.reveal').forEach(el=>rev.observe(el));
 
 const filters=document.getElementById('filters'), cards=[...document.querySelectorAll('#gallery .card')];
-filters.addEventListener('click',e=>{const b=e.target.closest('.filter');if(!b)return;filters.querySelectorAll('.filter').forEach(f=>f.classList.remove('is-on'));b.classList.add('is-on');const cat=b.dataset.cat;cards.forEach(c=>c.classList.toggle('hide',cat!=='all'&&c.dataset.cat!==cat));});
+filters.addEventListener('click',e=>{const b=e.target.closest('.filter');if(!b)return;filters.querySelectorAll('.filter').forEach(f=>f.classList.remove('is-on'));b.classList.add('is-on');const cat=b.dataset.cat;cards.forEach(c=>c.classList.toggle('hide',cat!=='all'&amp;&amp;c.dataset.cat!==cat));});
 
 function initBA(el){let drag=false;const set=x=>{const r=el.getBoundingClientRect();let p=((x-r.left)/r.width)*100;p=Math.max(0,Math.min(100,p));el.style.setProperty('--pos',p+'%');};const start=e=>{drag=true;set((e.touches?e.touches[0]:e).clientX);};const move=e=>{if(drag)set((e.touches?e.touches[0]:e).clientX);};const end=()=>drag=false;el.addEventListener('pointerdown',start);window.addEventListener('pointermove',move);window.addEventListener('pointerup',end);el.style.setProperty('--pos','50%');}
 document.querySelectorAll('.ba').forEach(initBA);
@@ -320,10 +776,10 @@ if(cbBtn){cbBtn.addEventListener('click',()=>{
   const to=document.getElementById('contactForm').dataset.email;
   const subject='Demande de rappel — échange téléphonique';
   const body='Bonjour,\n\nJe souhaite être rappelé(e) pour échanger quelques minutes au sujet de mon projet.\n\nNom :\nTéléphone :\nCréneau préféré :\n\nMerci !';
-  window.location.href=`mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  window.location.href=`mailto:${to}?subject=${encodeURIComponent(subject)}&amp;body=${encodeURIComponent(body)}`;
 });}
 const form=document.getElementById('contactForm');
-form.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;const to=form.dataset.email;const d=Object.fromEntries(new FormData(form).entries());const subject=`Demande de projet — ${d.nom} (${d.type})`;const body=`Nom : ${d.nom}\nTéléphone : ${d.tel||'—'}\nEmail : ${d.email}\nType de projet : ${d.type}\n\nMessage :\n${d.message}`;window.location.href=`mailto:${to}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;document.getElementById('formOk').style.display='block';});
+form.addEventListener('submit',e=>{e.preventDefault();if(!form.reportValidity())return;const to=form.dataset.email;const d=Object.fromEntries(new FormData(form).entries());const subject=`Demande de projet — ${d.nom} (${d.type})`;const body=`Nom : ${d.nom}\nTéléphone : ${d.tel||'—'}\nEmail : ${d.email}\nType de projet : ${d.type}\n\nMessage :\n${d.message}`;window.location.href=`mailto:${to}?subject=${encodeURIComponent(subject)}&amp;body=${encodeURIComponent(body)}`;document.getElementById('formOk').style.display='block';});
 </script>
 
       </div>
